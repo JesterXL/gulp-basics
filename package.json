@@ -1,31 +1,18 @@
 {
-  "name": "gulp-basics",
+  "name": "gulp-n00b",
   "version": "1.0.0",
-  "description": "Basic gulp project to reference.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://jesterxl@github.com/JesterXL/gulp-basics.git"
-  },
-  "keywords": [
-    "gulp",
-    "basic"
-  ],
   "author": "Jesse Warden <jesse@jessewarden.com> (https://jessewarden.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/JesterXL/gulp-basics/issues"
-  },
-  "homepage": "https://github.com/JesterXL/gulp-basics",
+  "license": "ISC",
   "devDependencies": {
-    "6to5": "^3.3.12",
-    "6to5ify": "^4.1.0",
-    "browser-sync": "^2.0.0-rc8",
-    "browserify": "^8.1.3",
-    "del": "^1.1.1",
-    "gulp": "^3.8.10"
+    "babel": "^4.0.1",
+    "browser-sync": "^2.0.1",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^4.0.0",
+    "gulp-clean": "^0.3.1"
   }
 }

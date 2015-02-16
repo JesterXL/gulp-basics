@@ -1,0 +1,15 @@
+{
+  "name": "gulp-n00b",
+  "version": "0.0.0",
+  "authors": [
+    "JesterXL <jesse@jessewarden.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
