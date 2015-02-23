@@ -1,7 +1,8 @@
 var gulp 		= require('gulp');
 var browserSync = require('browser-sync');
 var babel		= require('gulp-babel');
-var clean 		= require('gulp-clean');
+var del 		= require('del');
+var vinylPaths  = require('vinyl-paths');
 
 gulp.task('hello', function()
 {
@@ -41,7 +42,7 @@ gulp.task('babelIt', function()
 gulp.task('clean', function()
 {
 	return gulp.src('./build', {read: false})
-			.pipe(clean());
+			.pipe(vinylPaths(del));
 });
 
 

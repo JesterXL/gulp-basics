@@ -11,8 +11,9 @@
   "devDependencies": {
     "babel": "^4.0.1",
     "browser-sync": "^2.0.1",
+    "del": "^1.1.1",
     "gulp": "^3.8.11",
     "gulp-babel": "^4.0.0",
-    "gulp-clean": "^0.3.1"
+    "vinyl-paths": "^1.0.0"
   }
 }
